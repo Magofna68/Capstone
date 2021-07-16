@@ -39,10 +39,10 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           <p>Hi from React</p>
 
-          <Navbar className="border-bottom">
+          <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>Maddie McConnell</Navbar.Brand>
 
-            <NavbarToggle aria-controls="navbar-toggle" />
+            <NavbarToggle className="border-0" aria-controls="navbar-toggle" />
             <NavbarCollapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
