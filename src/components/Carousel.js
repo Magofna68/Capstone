@@ -1,7 +1,10 @@
 import React from 'react';
-import Maddie003 from '../IMG/Maddie003';
-import Maddie001 from '../IMG/Maddie001';
-import Maddie002 from '../IMG/Maddie002';
+import Maddie001 from '../IMG/Maddie001.png';
+import Maddie002 from '../IMG/Maddie002.jpeg';
+import Maddie003 from '../IMG/Maddie003.JPG';
+import Card from './Card';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 
 class Carousel extends React.Component {
   constructor(props) {
@@ -20,7 +23,7 @@ class Carousel extends React.Component {
           id: 1,
           title: 'Genuine Fitness',
           subTitle: 'Private Personal Training',
-          imgSrc: Maddie003,
+          imgSrc: Maddie002,
           link: 'https://genuinefitnesstraining.com/',
           selected: false
         },
@@ -28,16 +31,41 @@ class Carousel extends React.Component {
           id: 2,
           title: 'Facebook',
           subTitle: 'Maddie\'s Profile',
-          imgSrc: Maddie002,
+          imgSrc: Maddie003,
           link: 'https://www.facebook.com/maddie.kiplinger',
           selected: false
         },
       ]
     }
   }
+  handleCardClick = (id, card) => {
+    let items = [...this.state.items];
+
+    items[id].selected = items[id].selected ? false : true;
+
+    items.forEach(item => {
+      if (item.id !== id) {
+        item.selected = false;
+      }
+    });
+    this.setState({
+      items
+    });
+  }
+
+  makeItems = (items) => {
+    return items.map(item => {
+      return <Card item={item} onClick={(e => this.handleCardClick(item.id, e))} key={item.id} />
+    })
+  }
+
   render() {
     return (
-      <p>Carousel works!</p>
+      <Container fluid={true}>
+        <Row className="spaceAround">
+          {this.makeItems(this.state.items)}
+        </Row>
+      </Container>
     );
   }
 }

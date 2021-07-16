@@ -44,3 +44,7 @@
 .bolder {
   font-weight: 900;
 }
+
+.spaceAround {
+  justify-content: space-around;
+}
