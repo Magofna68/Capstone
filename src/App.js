@@ -9,6 +9,7 @@ import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import Nav from 'react-bootstrap/esm/Nav';
 
+import Footer from './components/Footer'
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -37,7 +38,6 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <p>Hi from React</p>
 
           <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>Maddie McConnell</Navbar.Brand>
@@ -52,7 +52,7 @@ class App extends React.Component {
             </NavbarCollapse>
           </Navbar>
 
-
+          <Footer />
         </Container>
 
       </Router>
