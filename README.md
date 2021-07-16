@@ -1,6 +1,6 @@
 <p align="center">
   <big>||  &nbsp;&nbsp;&nbsp;<u><b> 
-  Capstone - 
+  - Capstone Project: - 
   </b></u>&nbsp;&nbsp;&nbsp;  ||</big>
 </p>
 <p align="center">
@@ -46,9 +46,33 @@
 
 ------------------------------
 
-# Getting Started with Create React App
+## Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_*This is my independent, capstone project at Epicodus (week 18-20).*_
+
+_*This webpage will Promote Maddie Kiplinger, a dear friend, to expand her online presence for her business as a personal trainer and body builder.*_
+
+_*This page will utilize numberous API calls including an API called SendGrid. SendGrid will allow users to submit a form with a message & contact request that will be emailed directly to Maddie.*_
+
+# Technologies Used:
+
+1. Internet browser
+2. VS Code
+3. React
+4. SendGrid
+5. Possible social media APIs
+
+## Support and contact details
+
+_No ongoing support, but please feel free to reach out through my GitHub account._
+
+## Known Bugs
+
+_No known bugs_
+
+________________________________________________________________________________
+
+# Getting Started with Create React App:
 
 ## Available Scripts
 
