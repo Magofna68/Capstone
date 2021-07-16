@@ -40,3 +40,7 @@
 .ml-auto {
   margin-left: auto;
 }
+
+.bolder {
+  font-weight: 900;
+}

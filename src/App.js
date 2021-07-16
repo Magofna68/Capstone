@@ -25,8 +25,8 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: 'Elevate Your Gains',
-        subTitle: 'Accomplish your goals. Change your life.',
+        title: 'Elevate Your Gains.',
+        subTitle: 'Greatness Awaits.',
         text: 'Lets get to work.'
       },
       about: {

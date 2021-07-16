@@ -1,8 +1,11 @@
 import React from 'react';
 
+import Hero from '../Hero';
+
 function HomePage(props) {
   return (
-    <p>HomePage Works!</p>
+    <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+
   );
 }
 
