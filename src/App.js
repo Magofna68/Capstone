@@ -34,7 +34,7 @@ class App extends React.Component {
         // ref: { textRef }
       },
       about: {
-        title: 'Elevate Your Gains',
+        title: 'About Maddie',
       },
       contact: {
         title: 'Let\'s Chat',
