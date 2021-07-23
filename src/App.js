@@ -45,7 +45,9 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
 
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Maddie McConnell</Navbar.Brand>
+            <Navbar.Brand>
+              <Link className="logo" to="/">Vitality Fitness.</Link>
+            </Navbar.Brand>
 
             <NavbarToggle className="border-0" aria-controls="navbar-toggle" />
             <NavbarCollapse id="navbar-toggle">

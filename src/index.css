@@ -56,3 +56,14 @@ margin: 0;
  .test{
     text-align: center;
  }
+
+ .logo{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Roboto;
+  text-decoration: none;
+  color: black;
+  font-size: bolder;
+  margin-right: 40px;
+  opacity: .25;
+ }
