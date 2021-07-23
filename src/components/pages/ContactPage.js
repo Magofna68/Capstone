@@ -29,6 +29,15 @@ class ContactPage extends React.Component {
     )
   }
 
+  handleSubmit = (event) => {
+    event.preventDefault();
+    this.setState({
+      disabled: true,
+      emailSent: true
+
+    });
+  }
+
   render() {
     return (
       <div>
@@ -38,8 +47,8 @@ class ContactPage extends React.Component {
           <Form onSubmit={this.handleSubmit}>
 
             <Form.Group className="mb-3">
-              <Form.Label htmlFor="fullName">Name</Form.Label>
-              <Form.Control id="fullName" name="name" type="text" placeholder="Enter Full Name" value={this.state.name} onChange={this.handleChange}>
+              <Form.Label htmlFor="full-name">Name</Form.Label>
+              <Form.Control id="full-name" name="name" type="text" placeholder="Enter Full Name" value={this.state.name} onChange={this.handleChange}>
               </Form.Control>
             </Form.Group>
 
