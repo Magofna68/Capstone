@@ -37,19 +37,20 @@ class ContactPage extends React.Component {
         <Content>
           <Form onSubmit={this.handleSubmit}>
 
-            <Form.Group>
-              <Form.Label htmlFor="full-name">Full Name</Form.Label>
-              <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange}>
+            <Form.Group className="mb-3">
+              <Form.Label htmlFor="fullName">Name</Form.Label>
+              <Form.Control id="fullName" name="name" type="text" placeholder="Enter Full Name" value={this.state.name} onChange={this.handleChange}>
               </Form.Control>
             </Form.Group>
 
-            <Form.Group>
+            <Form.Group className="mb-3">
               <Form.Label htmlFor="email">Email</Form.Label>
-              <Form.Control id="email" name="email" type="text" value={this.state.email} onChange={this.handleChange}>
+              <Form.Control id="email" name="email" type="text" placeholder="Enter Email" value={this.state.email} onChange={this.handleChange}>
               </Form.Control>
+              <Form.Text className="text-muted">We'll never share your info with anyone</Form.Text>
             </Form.Group>
 
-            <Form.Group>
+            <Form.Group className="mb-3">
               <Form.Label htmlFor="message">Message</Form.Label>
               <Form.Control id="message" name="message" as="textarea" rows="3" value={this.state.message} onChange={this.handleChange}>
               </Form.Control>
