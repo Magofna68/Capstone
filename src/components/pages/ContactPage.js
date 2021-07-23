@@ -23,7 +23,7 @@ class ContactPage extends React.Component {
     const value = target.type === 'checkbox' ? target.checked : target.value;
     const name = target.name;
 
-    this.setState = ({
+    this.setState({
       [name]: value
     }
     )
@@ -45,7 +45,7 @@ class ContactPage extends React.Component {
 
             <Form.Group className="mb-3">
               <Form.Label htmlFor="email">Email</Form.Label>
-              <Form.Control id="email" name="email" type="text" placeholder="Enter Email" value={this.state.email} onChange={this.handleChange}>
+              <Form.Control id="email" name="email" type="text" placeholder="name@example.com" value={this.state.email} onChange={this.handleChange}>
               </Form.Control>
               <Form.Text className="text-muted">We'll never share your info with anyone</Form.Text>
             </Form.Group>
@@ -62,8 +62,11 @@ class ContactPage extends React.Component {
 
             {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
             {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
+
           </Form>
+
         </Content>
+
       </div>
     );
   }
