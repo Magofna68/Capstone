@@ -2,7 +2,7 @@ import React from 'react';
 import Maddie001 from '../IMG/Maddie001.png';
 import Maddie002 from '../IMG/Maddie002.jpeg';
 import Maddie003 from '../IMG/Maddie003.JPG';
-import Card from './Card';
+import Card from '../components/Card';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 

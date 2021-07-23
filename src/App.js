@@ -9,6 +9,7 @@ import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import Nav from 'react-bootstrap/esm/Nav';
 
+
 import Footer from './components/Footer'
 import HomePage from './components/pages/HomePage';
 import AboutPage from './components/pages/AboutPage';
