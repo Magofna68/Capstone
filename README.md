@@ -7,7 +7,7 @@
   <small>July 16th, 2021.</small>
 </p>
 <br>
-<p align="center">Changing the world one line of code at a time.</p>
+<p align="center">Changing the world one line of code at a time. </p>
     <p align="center">
         <a href="https://github.com/Magofna68/MessageBoard.Solution/graphs/contributors">
             <img src="https://img.shields.io/github/contributors/Magofna68/capstone.svg?style=plastic">
