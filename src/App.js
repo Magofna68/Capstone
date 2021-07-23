@@ -19,6 +19,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+
       title: 'Maddie McConnell',
       headerLinks: [
         { title: 'Home', path: '/' },
@@ -26,9 +27,11 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
+
         title: 'Elevate Your Gains.',
         subTitle: 'Greatness Awaits.',
         text: 'Lets get to work.'
+        // ref: { textRef }
       },
       about: {
         title: 'Elevate Your Gains',
