@@ -44,7 +44,7 @@ font-size: 16px;
 margin: 0;
 }
 
-.test {
+.cardimg {
   align-items: center;
   display: inline-block;
   height: 350px;
@@ -53,6 +53,6 @@ margin: 0;
   padding: 0;
 
 }
- .inline{
-   display:inline-block;
+ .test{
+    text-align: center;
  }
