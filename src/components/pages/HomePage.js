@@ -26,7 +26,9 @@ function HomePage(props) {
     <div>
       <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
       {/* <h3><span> ref={textRef} </span></h3> */}
-
+      <br></br>
+      <br></br>
+      <br></br>
       <Carousel />
     </div>
   );
