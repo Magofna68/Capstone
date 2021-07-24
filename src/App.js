@@ -14,6 +14,8 @@ import Footer from './components/Footer'
 import HomePage from './components/pages/HomePage';
 import AboutPage from './components/pages/AboutPage';
 import ContactPage from './components/pages/ContactPage';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
 
 class App extends React.Component {
   constructor(props) {
@@ -58,6 +60,12 @@ class App extends React.Component {
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
+                <div className="anchorTag1">
+                  <a href="https://www.instagram.com/maddie_vitalityfitness/" alt="instagram"><span><InstagramIcon fontSize="large" /></span></a>
+                </div>
+                <div className="anchorTag2">
+                  <a href="https://www.facebook.com/maddie.kiplinger" alt="facebook"><span><FacebookIcon fontSize="large" /></span></a>
+                </div>
 
               </Nav>
             </NavbarCollapse>

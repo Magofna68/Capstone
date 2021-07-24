@@ -33,7 +33,7 @@ class ContactPage extends React.Component {
     event.preventDefault();
     this.setState({
       disabled: true,
-      emailSent: true
+      // emailSent: true
 
     });
   }

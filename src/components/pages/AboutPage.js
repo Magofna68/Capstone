@@ -2,11 +2,13 @@ import React from 'react';
 import Hero from '../Hero';
 import Content from '../Content';
 
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
+
 function AboutPage(props) {
   return (
     <div>
       <Hero title={props.title} />
-
       <Content>
         <h2><bold>Lorem ipsum:</bold></h2>
         <p>
@@ -28,7 +30,7 @@ function AboutPage(props) {
         </p>
       </Content>
 
-    </div>
+    </div >
   );
 }
 
