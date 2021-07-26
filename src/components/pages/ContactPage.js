@@ -16,7 +16,7 @@ class ContactPage extends React.Component {
       emailSent: 'null'
     }
   }
-
+  found
   handleChange = (event) => {
     console.log(event)
     const target = event.target;
