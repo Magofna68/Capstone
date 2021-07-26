@@ -3,6 +3,7 @@ import Hero from '../Hero';
 import Content from '../Content';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Axios from 'axios';
 
 class ContactPage extends React.Component {
 
@@ -16,7 +17,7 @@ class ContactPage extends React.Component {
       emailSent: 'null'
     }
   }
-  found
+
   handleChange = (event) => {
     console.log(event)
     const target = event.target;
@@ -31,11 +32,33 @@ class ContactPage extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
+
     this.setState({
       disabled: true,
       // emailSent: true
 
     });
+
+    Axios.post('/api/email', this.state)
+      .then(res => {
+        if (res.data.success) {
+          this.setState({
+            disabled: false,
+            emailSent: true
+          });
+        } else {
+          this.setState({
+            disabled: false,
+            emailSent: false
+          });
+        }
+      })
+      .catch(res => {
+        this.setState({
+          disabled: false,
+          emailSent: false
+        });
+      })
   }
 
   render() {
