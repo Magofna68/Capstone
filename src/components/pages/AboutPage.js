@@ -14,9 +14,10 @@ function AboutPage(props) {
           Im Maddie McConnell!<br></br>My passion is helping others develop the skills necessary to live healthy lives through nutrition and exercise.  My main goal with all of my clients is to provide them with the education necessary to eventually leave my services feeling confident in their ability to effectively exercise on their own and have control over their weight.
         </p>
         <br></br>
-        <img src='Maddie04' alt="Fit girl" width="500" height="600"></img>
+        <img src={Maddie04} alt="fit girl"></img>
 
-        {/* <h3><bold>Your $60 hourly rate is paying for:</bold></h3> */}
+        <br></br>
+        <br></br>
         <h3><bold>What You Can Expect:</bold></h3>
         <br></br>
         <ol>
@@ -28,6 +29,7 @@ function AboutPage(props) {
           <li>Me as your resource! You may text of call me with any questions that arise regarding nutrition or exercise.</li>
         </ol>
         <br></br>
+        <img src={Maddie05} alt="fit girl" className="aboutPhoto"></img>
         <h4>FAQ:</h4>
         <ul>
           <li><strong>What are <a href="https://www.sclhealth.org/blog/2018/10/what-are-macros-and-why-should-i-be-counting-them/">Macros</a>?</strong></li>

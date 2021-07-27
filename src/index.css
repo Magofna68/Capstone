@@ -94,3 +94,10 @@ margin: 0;
   font-size: small;
   font-weight: 600;
 }
+
+.aboutPhoto{
+  width: 400px;
+  height: 500px;
+  align-items: center;
+
+}
