@@ -89,3 +89,8 @@ margin: 0;
   display: block;
   margin-right: 10px;
 }
+
+#smallFont{
+  font-size: small;
+  font-weight: 600;
+}

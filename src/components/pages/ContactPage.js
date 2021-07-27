@@ -68,7 +68,6 @@ class ContactPage extends React.Component {
 
         <Content>
           <Form onSubmit={this.handleSubmit}>
-
             <Form.Group className="mb-3">
               <Form.Label htmlFor="full-name">Name</Form.Label>
               <Form.Control id="full-name" name="name" type="text" placeholder="Enter Full Name" value={this.state.name} onChange={this.handleChange}>
@@ -77,7 +76,7 @@ class ContactPage extends React.Component {
 
             <Form.Group className="mb-3">
               <Form.Label htmlFor="email">Email</Form.Label>
-              <Form.Control id="email" name="email" type="text" placeholder="name@example.com" value={this.state.email} onChange={this.handleChange}>
+              <Form.Control id="email" name="email" type="email" placeholder="name@example.com" value={this.state.email} onChange={this.handleChange}>
               </Form.Control>
               <Form.Text className="text-muted">We'll never share your info with anyone</Form.Text>
             </Form.Group>
