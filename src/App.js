@@ -17,6 +17,7 @@ import ContactPage from './components/pages/ContactPage';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import ServicesPage from './components/pages/ServicesPage';
+import ITyped from './components/Ityped';
 
 class App extends React.Component {
   constructor(props) {
@@ -34,7 +35,8 @@ class App extends React.Component {
 
         title: 'Elevate Your Gains.',
         subTitle: 'Greatness Awaits.',
-        text: 'Lets get to work.'
+        text: <ITyped />,
+        // textRef: <ITyped />,
         // ref: { textRef }
       },
       about: {
