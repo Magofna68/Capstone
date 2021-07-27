@@ -1,9 +1,8 @@
 import React from 'react';
 import Hero from '../Hero';
 import Content from '../Content';
-
-import InstagramIcon from '@material-ui/icons/Instagram';
-import FacebookIcon from '@material-ui/icons/Facebook';
+import Maddie04 from '../../IMG/Maddie04.jpg';
+import Maddie05 from '../../IMG/Maddie05.jpg';
 
 function AboutPage(props) {
   return (
@@ -15,6 +14,8 @@ function AboutPage(props) {
           Im Maddie McConnell!<br></br>My passion is helping others develop the skills necessary to live healthy lives through nutrition and exercise.  My main goal with all of my clients is to provide them with the education necessary to eventually leave my services feeling confident in their ability to effectively exercise on their own and have control over their weight.
         </p>
         <br></br>
+        <img src='Maddie04' alt="Fit girl" width="500" height="600"></img>
+
         {/* <h3><bold>Your $60 hourly rate is paying for:</bold></h3> */}
         <h3><bold>What You Can Expect:</bold></h3>
         <br></br>
@@ -42,7 +43,7 @@ function AboutPage(props) {
         </ul>
       </Content>
 
-    </div >
+    </div>
   );
 }
 
