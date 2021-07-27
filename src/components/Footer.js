@@ -9,7 +9,7 @@ function Footer() {
       <Container fluid={true}>
         <Row className="border-top justify-content-between p-3">
           <Col md={3} className="p-0" sm={12}>
-            Maddie McConnell
+            <strong>Vitality Fitness.</strong>
           </Col>
           <Col className="p-0 d-flex justify-content-end md-3">
             This site was made by Brandon Magofna.

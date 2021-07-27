@@ -34,7 +34,7 @@ class App extends React.Component {
       home: {
 
         title: 'Elevate Your Gains.',
-        subTitle: 'Greatness Awaits.',
+        subTitle: 'Vitality Fitness',
         text: <ITyped />,
         // textRef: <ITyped />,
         // ref: { textRef }
@@ -58,7 +58,7 @@ class App extends React.Component {
 
           <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>
-              <Link className="logo" to="/">Vitality Fitness.</Link>
+              <Link className="logo" to="/">Greatness Awaits</Link>
             </Navbar.Brand>
 
             <NavbarToggle className="border-0" aria-controls="navbar-toggle" />

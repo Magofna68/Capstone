@@ -8,25 +8,11 @@ import Carousel from '../Carousel';
 
 function HomePage(props) {
 
-  // const textRef = useRef(null);
-
-  // useEffect(() => {
-  //   if (!textRef.current) {
-  //     return;
-  //   }
-  //   init(textRef.current, {
-  //     backDelay: 1500,
-  //     startDelay: 0,
-  //     typeSpeed: 150,
-  //     showCursor: true,
-  //     strings: ['Developer', 'Designer', 'Content Creator']
-  //   })
-  // }, []);
-
   return (
     <div>
       <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
 
+      <br></br>
       <br></br>
       <br></br>
       <br></br>
