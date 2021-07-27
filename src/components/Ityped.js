@@ -9,8 +9,8 @@ export default class ITyped extends Component {
       disabledBackTyping: false,
       showCursor: false,
       strings: ['Lets get to work.'],
-      typeSpeed: 80,
-      backDelay: 500,
+      typeSpeed: 85,
+      backDelay: 1500,
       loop: true,
       cursorChar: "|",
     })
