@@ -16,6 +16,7 @@ import AboutPage from './components/pages/AboutPage';
 import ContactPage from './components/pages/ContactPage';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import ServicesPage from './components/pages/ServicesPage';
 
 class App extends React.Component {
   constructor(props) {
@@ -26,7 +27,8 @@ class App extends React.Component {
       headerLinks: [
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
-        { title: 'Contact', path: '/contact' }
+        { title: 'Contact', path: '/contact' },
+        { title: 'Services', path: '/services' }
       ],
       home: {
 
@@ -40,6 +42,9 @@ class App extends React.Component {
       },
       contact: {
         title: 'Let\'s Chat.',
+      },
+      services: {
+        title: 'Services Provided'
       }
     }
   }
@@ -58,6 +63,7 @@ class App extends React.Component {
             <NavbarCollapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/services">Services</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
                 <div className="anchorTag1">
@@ -71,7 +77,7 @@ class App extends React.Component {
             </NavbarCollapse>
           </Navbar>
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
-          
+
           <Route path="/services" render={() => <ServicesPage title={this.state.services.title} />} />
 
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />

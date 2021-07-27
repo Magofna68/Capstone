@@ -18,7 +18,7 @@ function AboutPage(props) {
 
         <br></br>
         <br></br>
-        <h3><bold>What You Can Expect:</bold></h3>
+        {/* <h3><bold>What You Can Expect:</bold></h3>
         <br></br>
         <ol>
           <li>Customized training programs specifically based on your goals, preferences, equipment access, and physical limitations.</li>
@@ -42,7 +42,7 @@ function AboutPage(props) {
           <p>
             An hourly rate of $60 will give you access to all the services listed above.
           </p>
-        </ul>
+        </ul> */}
       </Content>
 
     </div>
