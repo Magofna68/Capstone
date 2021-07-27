@@ -2,16 +2,16 @@ import React from 'react';
 import Hero from '../Hero';
 import Content from '../Content';
 import Maddie04 from '../../IMG/Maddie04.jpg';
-import Maddie05 from '../../IMG/Maddie05.jpg';
+// import Maddie05 from '../../IMG/Maddie05.jpg';
 
 function AboutPage(props) {
   return (
     <div>
       <Hero title={props.title} />
       <Content>
-        <h2><bold>Howdy Y'all</bold></h2>
         <p>
-          Im Maddie McConnell!<br></br>My passion is helping others develop the skills necessary to live healthy lives through nutrition and exercise.  My main goal with all of my clients is to provide them with the education necessary to eventually leave my services feeling confident in their ability to effectively exercise on their own and have control over their weight.
+          <h2 id="inLine"><bold>Im Maddie McConnell</bold></h2><br></br><br></br>
+          My passion is helping others develop the skills necessary to live healthy lives through nutrition and exercise.  <br></br>My main goal with all of my clients is to provide them with the education necessary to eventually leave my services feeling confident in their ability to effectively exercise on their own and have control over their weight.
         </p>
         <br></br>
         <img src={Maddie04} alt="fit girl"></img>

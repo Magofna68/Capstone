@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect, useRef } from 'react';
 import { init } from 'ityped';
 import ITyped from '../Ityped';
+// import Banner from '../Banner';
 
 import Hero from '../Hero';
 import Carousel from '../Carousel';
@@ -10,6 +11,9 @@ function HomePage(props) {
 
   return (
     <div>
+      {/* <container className="bannerContain">
+        <Banner />
+      </container> */}
       <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
 
       <br></br>

@@ -2,10 +2,12 @@ import React from 'react';
 import Hero from '../Hero';
 import Content from '../Content';
 import Maddie05 from '../../IMG/Maddie05.jpg';
+import Banner from '../Banner';
 
 function ServicesPage(props) {
   return (
     <div>
+      <Banner />
       <Hero title={props.title} />
       <Content>
         <h3><bold>What You Can Expect:</bold></h3>
