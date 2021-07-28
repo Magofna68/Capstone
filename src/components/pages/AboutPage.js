@@ -19,7 +19,7 @@ function AboutPage(props) {
           <li>Masters in Physical Education</li>
           <li>Bodyweight HIIT Specialist</li>
           <li>Wellness Enthusiast</li>
-          <li>Competitive INBF Fitbody athlete</li>
+          <li>Competitive INBF Fitbody Athlete</li>
           <li>Female Bodybuilding Athlete</li>
         </ul>
         <br></br>
