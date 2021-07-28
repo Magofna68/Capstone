@@ -31,7 +31,7 @@ class Carousel extends React.Component {
         {
           id: 2,
           title: 'Facebook',
-          subTitle: 'Maddie\'s Profile',
+          subTitle: 'Connect on Social/s!',
           imgSrc: Maddie003,
           link: 'https://www.facebook.com/maddie.kiplinger',
           selected: false

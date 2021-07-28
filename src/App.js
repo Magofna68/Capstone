@@ -38,13 +38,12 @@ class App extends React.Component {
 
         subTitle: 'Vitality Fitness',
         title: <ITyped />,
-        // text: <ITyped />,
         text: 'Let\'s get to work.',
 
       },
       about: {
         title: 'About Maddie',
-        text: 'Trainer & Bodybuilding Competitor'
+        text: 'Trainer   ||    Bodybuilding Competitor'
       },
       contact: {
         title: 'Let\'s Chat.',
@@ -88,7 +87,7 @@ class App extends React.Component {
 
           <Route path="/services" render={() => <ServicesPage title={this.state.services.title} />} />
 
-          <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
+          <Route path="/about" render={() => <AboutPage title={this.state.about.title} text={this.state.about.text} />} />
 
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
           <Footer />
