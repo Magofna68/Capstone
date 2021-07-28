@@ -20,7 +20,7 @@ function AboutPage(props) {
           <li>Bodyweight HIIT Specialist</li>
           <li>Wellness Enthusiast</li>
           <li>Competitive INBF Fitbody athlete</li>
-          <li>Female Bodybuilding athlete</li>
+          <li>Female Bodybuilding Athlete</li>
         </ul>
         <br></br>
 
