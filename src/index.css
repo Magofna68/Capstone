@@ -15,6 +15,15 @@ code {
     monospace;
 }
 
+a.nav-link:hover {
+  color: gold;
+}
+
+.nav .link a {
+  background-color: gray;
+  color: black;
+}
+
 .g-card {
   margin: 20px;
   display: inline-block;
@@ -170,6 +179,7 @@ p.g-card-sub-title{
 img.cardimg:hover{
   transform: scale(1.03);
   /* width: -100px; */
+  background-color: black;
   
 }
 
