@@ -11,7 +11,7 @@ function HomePage(props) {
 
   return (
     <div>
-      <Banner />
+      {/* <Banner /> */}
       <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
 
       <br></br>

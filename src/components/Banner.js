@@ -6,7 +6,7 @@ class Banner extends Component {
   render() {
     return (
       <div>
-        <video src={Test} alt="Vitality Fitness Company" type="video/mp4" id="banner" width="1300" height="150" autoplay="true" />/>
+        <video src={Test} alt="Vitality Fitness Company" type="video/mp4" id="banner" width="1300" height="150" autoplay="true" loop="true" />
       </div>
     )
   };

@@ -4,6 +4,7 @@ import Content from '../Content';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Axios from 'axios';
+import Banner from '../Banner';
 
 class ContactPage extends React.Component {
 
@@ -64,6 +65,7 @@ class ContactPage extends React.Component {
   render() {
     return (
       <div>
+        <Banner />
         <Hero title={this.props.title} />
 
         <Content>
