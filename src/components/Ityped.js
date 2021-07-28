@@ -8,7 +8,7 @@ export default class ITyped extends Component {
     init(myElement, {
       disabledBackTyping: false,
       showCursor: false,
-      strings: ['Lets get to work.'],
+      strings: ['Elevate Your Gains.', 'Greatness Awaits.', 'Tomorrow Starts Today.'],
       typeSpeed: 85,
       backDelay: 1500,
       loop: true,

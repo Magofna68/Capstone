@@ -10,10 +10,24 @@ function AboutPage(props) {
       <Hero title={props.title} />
       <Content>
         <p>
-          <h2 id="inLine"><bold>Im Maddie McConnell</bold></h2><br></br><br></br>
-          My passion is helping others develop the skills necessary to live healthy lives through nutrition and exercise.  <br></br>My main goal with all of my clients is to provide them with the education necessary to eventually leave my services feeling confident in their ability to effectively exercise on their own and have control over their weight.
+          {/* <h2 id="inLine"><bold>Im Maddie McConnell</bold></h2><br></br><br></br> */}
+          As the owner of Vitality Fitness, Maddie's passions lie in helping others develop the skills necessary to live as the healthiest renditions of themselves, exerting control over their fitness and weight. Her goal is to transverse each client to a state of confidence; in their own abilites, and to leverage her insight and feedback.</p>
+        <p>Through a combination of nutrition and exercise, Maddie's objective is to offer encouragement and accountability to each client, providing them with the education necessary to revolutionize their lives.</p>
+        <br></br>
+        <h3>Qualifications:</h3>
+        <ul>
+          <li>Masters in Physical Education</li>
+          <li>Bodyweight HIIT Specialist</li>
+          <li>Wellness Enthusiast</li>
+          <li>Competitive INBF Fitbody athlete</li>
+          <li>Female Bodybuilding athlete</li>
+        </ul>
+        <br></br>
+
+        <p><strong><em>
+          "If I can empower my clients to where they feel confident in their abilities, comfortable in their own skin, and effective leveraging their own knowledge, I've done my job"</em></strong>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Maddie McConnell</p>
         </p>
-        <p>Owner of Vitality Fitness, Former Collegiate Basketball Athlete,  Masters in Physical Education, Bodyweight HIIT Specialist, Wellness Enthusiast. Competitive INBF Fitbody and Female Bodybuilding athlete.</p>
         <br></br>
         <img src={Maddie04} alt="fit girl"></img>
 
@@ -46,7 +60,7 @@ function AboutPage(props) {
         </ul> */}
       </Content>
 
-    </div>
+    </div >
   );
 }
 

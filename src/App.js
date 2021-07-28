@@ -9,6 +9,7 @@ import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import Nav from 'react-bootstrap/esm/Nav';
 import Banner from './components/Banner';
+// import { Test, VitalityB } from './videos/';
 
 
 
@@ -35,17 +36,19 @@ class App extends React.Component {
       ],
       home: {
 
-        title: 'Elevate Your Gains.',
         subTitle: 'Vitality Fitness',
-        text: <ITyped />,
-        // textRef: <ITyped />,
-        // ref: { textRef }
+        title: <ITyped />,
+        // text: <ITyped />,
+        text: 'Let\'s get to work.',
+
       },
       about: {
         title: 'About Maddie',
+        // banner: { Test },
       },
       contact: {
         title: 'Let\'s Chat.',
+        // banner: { VitalityB }
       },
       services: {
         title: 'Services Provided'

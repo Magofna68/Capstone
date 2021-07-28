@@ -12,14 +12,14 @@ function HomePage(props) {
   return (
     <div>
       {/* <Banner /> */}
-      <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+      <Hero title={props.title} subTitle={props.subTitle} />
+      <br></br>
+      <Hero text={props.text} />
 
       <br></br>
       <br></br>
-      <br></br>
-      <br></br>
       <Carousel />
-    </div>
+    </div >
   );
 }
 
