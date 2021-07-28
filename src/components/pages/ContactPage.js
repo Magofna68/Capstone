@@ -65,7 +65,7 @@ class ContactPage extends React.Component {
   render() {
     return (
       <div>
-        <Banner />
+        <Banner banner={this.props.banner} />
         <Hero title={this.props.title} />
 
         <Content>

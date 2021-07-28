@@ -150,6 +150,23 @@ span.navbar-brand {
   border-color: white;
 }
 
-a.logo{
-  
+h3.display-4{
+  font-weight: 400;
+
+}
+
+.links{
+  color: white;
+  font-weight: 200;
+}
+.links:hover {
+  background: gray;
+}
+
+p.g-card-sub-title{
+  color: white;
+}
+
+img.cardimg:hover{
+  transform: scale(1.03);
 }
