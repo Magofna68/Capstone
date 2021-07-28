@@ -52,7 +52,7 @@ _*This is my independent, capstone project at Epicodus (week 18-20).*_
 
 _*This webpage will Promote Maddie Kiplinger, a dear friend, to expand her online presence for her business as a personal trainer and body builder.*_
 
-_*This page will utilize numberous API calls including an API called SendGrid. SendGrid will allow users to submit a form with a message & contact request that will be emailed directly to Maddie.*_
+_*This page will utilize an API call to an a form-to-email API called SendGrid. SendGrid will allow users to submit a form with a message & contact request that will be emailed directly to Maddie.*_
 
 # Technologies Used:
 
@@ -60,7 +60,9 @@ _*This page will utilize numberous API calls including an API called SendGrid. S
 2. VS Code
 3. React
 4. SendGrid
-5. Possible social media APIs
+5. iTyped
+6. React-spring
+7. Material-UI/Core
 
 ## Support and contact details
 

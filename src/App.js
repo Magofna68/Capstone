@@ -44,6 +44,7 @@ class App extends React.Component {
       },
       about: {
         title: 'About Maddie',
+        text: 'Trainer & Bodybuilding Competitor'
       },
       contact: {
         title: 'Let\'s Chat.',

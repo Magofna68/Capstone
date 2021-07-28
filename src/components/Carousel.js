@@ -2,6 +2,7 @@ import React from 'react';
 import Maddie001 from '../IMG/Maddie001.png';
 import Maddie002 from '../IMG/Maddie002.jpeg';
 import Maddie003 from '../IMG/Maddie003.JPG';
+import Maddie06 from '../IMG/Maddie06.jpg';
 import Card from '../components/Card';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
@@ -15,7 +16,7 @@ class Carousel extends React.Component {
           id: 0,
           title: 'Instagram',
           subTitle: 'Pics, or it didn\'t happen',
-          imgSrc: Maddie001,
+          imgSrc: Maddie002,
           link: 'https://www.instagram.com/maddie_vitalityfitness/',
           selected: false
         },
@@ -23,7 +24,7 @@ class Carousel extends React.Component {
           id: 1,
           title: 'Genuine Fitness',
           subTitle: 'Private Personal Training',
-          imgSrc: Maddie002,
+          imgSrc: Maddie06,
           link: 'https://genuinefitnesstraining.com/',
           selected: false
         },

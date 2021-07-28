@@ -8,7 +8,8 @@ function AboutPage(props) {
   return (
     <div>
       <Content>
-        <Hero title={props.title} />
+        <Hero title={props.title} text={props.text} />
+
         <p className="aboutPageText">
           {/* <h2 id="inLine"><bold>Im Maddie McConnell</bold></h2><br></br><br></br> */}
           &nbsp;&nbsp;&nbsp;&nbsp;As the owner of Vitality Fitness, Maddie's passions lie in helping others develop the skills necessary to live as the healthiest renditions of themselves, exerting control over their fitness and weight. Her goal is to transverse each client to a state of confidence; in their own abilites, and to leverage her insight and feedback.</p>
