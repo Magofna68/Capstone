@@ -7,26 +7,30 @@ import Maddie04 from '../../IMG/Maddie04.jpg';
 function AboutPage(props) {
   return (
     <div>
-      <Hero title={props.title} />
       <Content>
-        <p>
+        <Hero title={props.title} />
+        <p className="aboutPageText">
           {/* <h2 id="inLine"><bold>Im Maddie McConnell</bold></h2><br></br><br></br> */}
-          As the owner of Vitality Fitness, Maddie's passions lie in helping others develop the skills necessary to live as the healthiest renditions of themselves, exerting control over their fitness and weight. Her goal is to transverse each client to a state of confidence; in their own abilites, and to leverage her insight and feedback.</p>
-        <p>Through a combination of nutrition and exercise, Maddie's objective is to offer encouragement and accountability to each client, providing them with the education necessary to revolutionize their lives.</p>
+          &nbsp;&nbsp;&nbsp;&nbsp;As the owner of Vitality Fitness, Maddie's passions lie in helping others develop the skills necessary to live as the healthiest renditions of themselves, exerting control over their fitness and weight. Her goal is to transverse each client to a state of confidence; in their own abilites, and to leverage her insight and feedback.</p>
+        <p className="aboutPageText">Through a combination of nutrition and exercise, Maddie's objective is to offer encouragement and accountability to each client, providing them with the education necessary to revolutionize their lives.</p>
         <br></br>
-        <h3>Qualifications:</h3>
-        <ul>
-          <li>Masters in Physical Education</li>
-          <li>Bodyweight HIIT Specialist</li>
-          <li>Wellness Enthusiast</li>
-          <li>Competitive INBF Fitbody Athlete</li>
-          <li>Female Bodybuilding Athlete</li>
-        </ul>
-        <br></br>
-
+        <div className="aboutBody">
+          <br></br>
+          <h3>Qualifications:</h3>
+          <br></br>
+          <ul>
+            <li>Masters in Physical Education</li>
+            <li>Bodyweight HIIT Specialist</li>
+            <li>Wellness Enthusiast</li>
+            <li>Competitive INBF Fitbody Athlete</li>
+            <li>Female Bodybuilding Athlete</li>
+          </ul>
+          <br></br>
+        </div>
+        <br></br><br></br>
         <p><strong><em>
           "If I can empower my clients to where they feel confident in their abilities, comfortable in their own skin, and effective leveraging their own knowledge, I've done my job"</em></strong>
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Maddie McConnell</p>
+          <p><br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Maddie McConnell</p>
         </p>
         <br></br>
         <img src={Maddie04} alt="fit girl"></img>

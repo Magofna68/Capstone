@@ -68,7 +68,7 @@ class ContactPage extends React.Component {
         <Banner banner={this.props.banner} />
         <Hero title={this.props.title} />
 
-        <Content>
+        <Content id="color">
           <Form onSubmit={this.handleSubmit}>
             <Form.Group className="mb-3">
               <Form.Label htmlFor="full-name">Name</Form.Label>
@@ -99,7 +99,6 @@ class ContactPage extends React.Component {
           </Form>
 
         </Content>
-
       </div>
     );
   }

@@ -1,4 +1,7 @@
 body {
+  /* background-image: url(./IMG/Workout.jpeg);
+  background-color: gray;
+  background-blend-mode: darken;*/
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -157,10 +160,7 @@ h3.display-4{
 
 .links{
   color: white;
-  font-weight: 200;
-}
-.links:hover {
-  background: gray;
+  font-weight: 200
 }
 
 p.g-card-sub-title{
@@ -169,4 +169,33 @@ p.g-card-sub-title{
 
 img.cardimg:hover{
   transform: scale(1.03);
+  /* width: -100px; */
+  
+}
+
+.aboutBody{
+  background-image: url(./IMG/Workout.jpeg);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-blend-mode:luminosity;
+  background-color: darkgray;
+  height: 600px;
+  width: 70vw;
+  font-family: Roboto;
+  font-weight: 600;
+  padding-left: 9%
+}
+
+#color{
+color: white;
+}
+
+.aboutPageText{
+  color: #495057;
+  font-weight: 550;
+  font-size: larger;
+  font-family: Roboto;
+text-align: center;
+  /* transition: all 2s;
+  transition: step-end; */
 }
