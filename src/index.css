@@ -209,3 +209,12 @@ text-align: center;
   /* transition: all 2s;
   transition: step-end; */
 }
+
+#faq{
+  font-family: Tahoma, sans-serif;
+}
+.smallFont{
+  font-size: small;
+  font-weight: 300;
+}
+

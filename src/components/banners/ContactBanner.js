@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import VitalityB from '../../src/videos/VitalityB.mp4';
+import VitalityB from '../../videos/VitalityB.mp4';
 
-class Banner extends Component {
+class ContactBanner extends Component {
   render() {
     return (
       <div>
@@ -11,4 +11,4 @@ class Banner extends Component {
   };
 }
 
-export default Banner;
+export default ContactBanner;

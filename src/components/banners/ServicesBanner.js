@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Test from '../../src/videos/Test.mp4';
+import Test from '../../videos/Test.mp4';
 
-class Banner extends Component {
+class ServicesBanner extends Component {
   render() {
     return (
       <div>
@@ -11,4 +11,4 @@ class Banner extends Component {
   };
 }
 
-export default Banner;
+export default ServicesBanner;

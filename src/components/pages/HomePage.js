@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect, useRef } from 'react';
 import { init } from 'ityped';
 import ITyped from '../Ityped';
-import Banner from '../ContactBanner';
+import Banner from '../banners/ContactBanner';
 
 import Hero from '../Hero';
 import Carousel from '../Carousel';

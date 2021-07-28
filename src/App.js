@@ -8,9 +8,8 @@ import NavbarBrand from 'react-bootstrap';
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import Nav from 'react-bootstrap/esm/Nav';
-import ServicesBanner from './components/ServicesBanner';
-import ContactBanner from './components/ContactBanner';
-// import { Test, VitalityB } from './videos/';
+import ServicesBanner from './components/banners/ServicesBanner';
+import ContactBanner from './components/banners/ContactBanner';
 
 
 
@@ -45,7 +44,6 @@ class App extends React.Component {
       },
       about: {
         title: 'About Maddie',
-        // banner: { Test },
       },
       contact: {
         title: 'Let\'s Chat.',
