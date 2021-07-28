@@ -13,6 +13,7 @@ function AboutPage(props) {
           <h2 id="inLine"><bold>Im Maddie McConnell</bold></h2><br></br><br></br>
           My passion is helping others develop the skills necessary to live healthy lives through nutrition and exercise.  <br></br>My main goal with all of my clients is to provide them with the education necessary to eventually leave my services feeling confident in their ability to effectively exercise on their own and have control over their weight.
         </p>
+        <p>Owner of Vitality Fitness, Former Collegiate Basketball Athlete,  Masters in Physical Education, Bodyweight HIIT Specialist, Wellness Enthusiast. Competitive INBF Fitbody and Female Bodybuilding athlete.</p>
         <br></br>
         <img src={Maddie04} alt="fit girl"></img>
 
