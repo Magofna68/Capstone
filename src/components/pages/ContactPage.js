@@ -64,7 +64,7 @@ class ContactPage extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="contactBackground">
         <ContactBanner banner={this.props.banner} />
         <Hero title={this.props.title} />
 
@@ -89,7 +89,7 @@ class ContactPage extends React.Component {
               </Form.Control>
             </Form.Group>
 
-            <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
+            <Button className="d-inline-block greenFont" variant="success" type="submit" disabled={this.state.disabled}>
               Send
             </Button>
 
