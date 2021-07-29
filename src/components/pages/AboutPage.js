@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../Hero';
 import Content from '../Content';
 import Maddie04 from '../../IMG/Maddie04.jpg';
-// import Maddie05 from '../../IMG/Maddie05.jpg';
+import VeganIcon from '../../IMG/VeganIcon.jpg';
 
 function AboutPage(props) {
   return (
@@ -12,9 +12,14 @@ function AboutPage(props) {
 
         <p className="aboutPageText">
           {/* <h2 id="inLine"><bold>Im Maddie McConnell</bold></h2><br></br><br></br> */}
-          &nbsp;&nbsp;&nbsp;&nbsp;As the owner of Vitality Fitness, Maddie's passions lie in helping others develop the skills necessary to live as the healthiest renditions of themselves, exerting control over their fitness and weight. Her goal is to transverse each client to a state of confidence; in their own abilites, and to leverage her insight and feedback.</p>
-        <p className="aboutPageText">Through a combination of nutrition and exercise, Maddie's objective is to offer encouragement and accountability to each client, providing them with the education necessary to revolutionize their lives.</p>
+          &nbsp;&nbsp;&nbsp;&nbsp;As the owner of Vitality Fitness, Maddie's passions lie in helping others develop the skills necessary to live as the healthiest renditions of themselves. Exerting control over their fitness and weight, her goal is to transform each client into a state of confidence; in their own abilites, and to leverage the feedback and insight provided.</p>
+        <p className="aboutPageText">Through a combination of nutrition and exercise, Maddie's objective is to offer encouragement and accountability to each client, empowering them with the knowledge to revolutionize their lives.</p>
         <br></br>
+        <p>In 2019, Maddie decided to take a stand for her health and the environment, as she swapped out her carnivorous life for #PlantPower. Flooded with energy and saving the environment one meal at a time, Maddie has found success as a vegan athlete, and is living testimony that one can be powered by plants and still achieve the results they work for.
+          <br></br><br></br>Since 2020, Maddie has found a passion in bodybuilding. Participating in her first semi-pro event, Maddie took 1st in both: Bodybuilding and Fit Body. She found continued success, as her hard work paid off in her second competition, taking 1st in both: Women's Bodybuilding and Open Figure, while placing 2nd in Fit Body. <br></br><br></br><strong>Maddie continues her strive for excellence and success in bodybuilding, and brings that same level of focus and intensity to each of her training sessions. </strong></p>
+        <h3 id="plantPower"><span className="greenFont">#</span>PoweredBy<span className="greenFont">Plants</span><img src={VeganIcon} width="50px" height="50px" alt="vegan icon"></img>
+        </h3>
+
         <div className="aboutBody">
           <br></br>
           <h3>Qualifications:</h3>
