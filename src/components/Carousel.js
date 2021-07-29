@@ -1,7 +1,7 @@
 import React from 'react';
 import Maddie001 from '../IMG/Maddie001.png';
 import Maddie002 from '../IMG/Maddie002.jpeg';
-import Maddie003 from '../IMG/Maddie003.JPG';
+import Maddie07 from '../IMG/Maddie07.jpeg';
 import Maddie06 from '../IMG/Maddie06.jpg';
 import Card from '../components/Card';
 import Row from 'react-bootstrap/Row';
@@ -22,18 +22,18 @@ class Carousel extends React.Component {
         },
         {
           id: 1,
-          title: 'Genuine Fitness',
-          subTitle: 'Private Personal Training',
-          imgSrc: Maddie06,
-          link: 'https://genuinefitnesstraining.com/',
+          title: 'Virtual Tour',
+          subTitle: 'Get a 3d View',
+          imgSrc: Maddie07,
+          link: 'https://tour-uswest.metareal.com/apps/player?asset=749b26c9-4fbc-4183-b6a8-ef47dc03d0d0&position=5.28x1.67y4.15z&rotation=3.67x491.69y0.00z',
           selected: false
         },
         {
           id: 2,
-          title: 'Facebook',
-          subTitle: 'Connect on Social/s!',
-          imgSrc: Maddie003,
-          link: 'https://www.facebook.com/maddie.kiplinger',
+          title: 'Genuine Fitness',
+          subTitle: 'Private Coaching & Personal Training',
+          imgSrc: Maddie06,
+          link: 'https://genuinefitnesstraining.com/',
           selected: false
         },
       ]

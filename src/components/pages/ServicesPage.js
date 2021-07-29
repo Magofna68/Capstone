@@ -6,13 +6,13 @@ import ServicesBanner from '../banners/ServicesBanner';
 
 function ServicesPage(props) {
   return (
-    <div>
+    <div className="servicesBackground">
       <ServicesBanner banner={props.banner} />
       <Hero title={props.title} />
       <Content>
         <h3><bold>What You Can Expect:</bold></h3>
         <br></br>
-        <ol>
+        <ol className="servicesBody">
           <li>Customized training programs specifically based on your goals, preferences, equipment access, and physical limitations.</li>
           <li>Instruction and guidance on proper lifting form with continuous feedback</li>
           <li>Guidance with how to select exercises, weights, and rest periods based on your goals.</li>

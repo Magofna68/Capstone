@@ -15,7 +15,7 @@ function AboutPage(props) {
           &nbsp;&nbsp;&nbsp;&nbsp;As the owner of Vitality Fitness, Maddie's passions lie in helping others develop the skills necessary to live as the healthiest renditions of themselves. Exerting control over their fitness and weight, her goal is to transform each client into a state of confidence; in their own abilites, and to leverage the feedback and insight provided.</p>
         <p className="aboutPageText">Through a combination of nutrition and exercise, Maddie's objective is to offer encouragement and accountability to each client, empowering them with the knowledge to revolutionize their lives.</p>
         <br></br>
-        <p>In 2019, Maddie decided to take a stand for her health and the environment, as she swapped out her carnivorous life for #PlantPower. Flooded with energy and saving the environment one meal at a time, Maddie has found success as a vegan athlete, and is living testimony that one can be powered by plants and still achieve the results they work for.
+        <p><span className="greenBackground">In 2019, Maddie decided to take a stand for her health and the environment, as she swapped out her carnivorous life for #PlantPower. Flooded with energy and saving the environment one meal at a time, Maddie has found success as a vegan athlete, and is living testimony that one can be powered by plants and still achieve the results they work for.</span>
           <br></br><br></br>Since 2020, Maddie has found a passion in bodybuilding. Participating in her first semi-pro event, Maddie took 1st in both: Bodybuilding and Fit Body. She found continued success, as her hard work paid off in her second competition, taking 1st in both: Women's Bodybuilding and Open Figure, while placing 2nd in Fit Body. <br></br><br></br><strong>Maddie continues her strive for excellence and success in bodybuilding, and brings that same level of focus and intensity to each of her training sessions. </strong></p>
         <h3 id="plantPower"><span className="greenFont">#</span>PoweredBy<span className="greenFont">Plants</span><img src={VeganIcon} width="50px" height="50px" alt="vegan icon"></img>
         </h3>
@@ -36,7 +36,7 @@ function AboutPage(props) {
         <br></br><br></br>
         <p><strong><em>
           "If I can empower my clients to where they feel confident in their abilities, comfortable in their own skin, and effective leveraging their own knowledge, I've done my job"</em></strong>
-          <p><br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Maddie McConnell</p>
+          <p><br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="greenFont">- Maddie McConnell</span></p>
         </p>
         <br></br>
         <img src={Maddie04} alt="fit girl"></img>
