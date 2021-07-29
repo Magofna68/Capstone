@@ -200,23 +200,13 @@ img.cardimg:hover{
   background-color: #adb5bd;
 }
 
-.servicesBody{
-  background-image: url(./IMG/gymPic.jpeg);
-  background-position: center;
-  background-repeat:no-repeat;
-  background-blend-mode: darken;
-  background-color: rgba(243, 236, 236, 0.397);
-  height: 300px;
-  width: 70vw;
-  font-family: Roboto;
-  font-weight: 600;
-  color: white;
-  text-align: left;
-  padding-left: 4%
-}
+
 
 #color{
 color: white;
+}
+.whiteText{
+  color: white;
 }
 
 .aboutPageText{

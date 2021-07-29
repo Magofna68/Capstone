@@ -10,9 +10,9 @@ function ServicesPage(props) {
       <ServicesBanner banner={props.banner} />
       <Hero title={props.title} />
       <Content>
-        <h3><bold>What You Can Expect:</bold></h3>
+        <h3 className="greenFont"><bold>What You Can Expect:</bold></h3>
         <br></br>
-        <ol className="servicesBody">
+        <ol>
           <li>Customized training programs specifically based on your goals, preferences, equipment access, and physical limitations.</li>
           <li>Instruction and guidance on proper lifting form with continuous feedback</li>
           <li>Guidance with how to select exercises, weights, and rest periods based on your goals.</li>
@@ -25,9 +25,9 @@ function ServicesPage(props) {
         <br></br>
         <br></br>
         <h4>FAQ:</h4><br></br>
-        <ul id="faq">
+        <ul id="faq" className="servicesBody">
           <li><strong>What are <a href="https://www.sclhealth.org/blog/2018/10/what-are-macros-and-why-should-i-be-counting-them/">Macros</a>?</strong></li>
-          <p>
+          <p className="whiteText">
             "..Macro is short for macronutrient. What’s a macronutrient? They’re the three categories of nutrients you eat the most and provide you with most of your energy: protein, carbohydrates and fats. So when you’re counting your macros, you’re counting the grams of proteins, carbs or fat that you’re consuming."
             <br></br>
             <em>- SLCHealth.org</em>
@@ -39,7 +39,7 @@ function ServicesPage(props) {
             -  <a href="https://www.drlamcoaching.com/blog/exercise-faq/"><em>drlamcoaching.com/blog/exercise</em></a>
           </p>
           <li><strong>What are some benefits to weight training?</strong></li>
-          <p>
+          <p className="whiteText">
             1. It will increase your muscle and muscle burns more calories than fat.<br></br>
             2.Resistance exercise, such as "free weights, weight training machines or exercise bands" can effect bone mass, which can help prevent <a href="https://osteoporosis.ca/">osteoporosis.</a><br></br>
             3. More energy and strength to get you through everyday life.
@@ -51,7 +51,7 @@ function ServicesPage(props) {
               Bodybuilding keeps your body and muscle strong and flexible, helping bolster defenses for osteoporosis and arthritis.
             </p>
             <li>Improve mental health:</li>
-            <p className="smallFont">
+            <p className="smallFont  whiteText">
               Bodybuilding exercises can help you sleep better, reduce fatigue and psychological tension. It can also help with the release of endorphin. Endorphin is a brain chemical which influences mood.
               Weight training and physical exercise can help in rising of self-esteem and confidence.
             </p>
@@ -65,7 +65,7 @@ function ServicesPage(props) {
               <br />
               <br></br>
               <li><strong>What does the Pricing Structure Look Like?</strong></li>
-              <p>
+              <p className="whiteText">
                 An hourly rate of $60 will give you access to all the services listed above.
               </p>
             </p>
