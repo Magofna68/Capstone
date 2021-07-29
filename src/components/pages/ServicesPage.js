@@ -26,25 +26,25 @@ function ServicesPage(props) {
         <br></br>
         <h4 className="greenFont">FAQ:</h4><br></br>
         <ul id="faq" className="servicesBody">
-          <li className="greenFont"><strong>What are <a href="https://www.sclhealth.org/blog/2018/10/what-are-macros-and-why-should-i-be-counting-them/">Macros</a>?</strong></li>
+          <li><strong>What are <a href="https://www.sclhealth.org/blog/2018/10/what-are-macros-and-why-should-i-be-counting-them/">Macros</a>?</strong></li>
           <p className="whiteText">
             "..Macro is short for macronutrient. What’s a macronutrient? They’re the three categories of nutrients you eat the most and provide you with most of your energy: protein, carbohydrates and fats. So when you’re counting your macros, you’re counting the grams of proteins, carbs or fat that you’re consuming."
             <br></br>
             <em>- SLCHealth.org</em>
           </p>
-          <li className="greenFont"><strong>What is my target heart rate zone?</strong></li>
+          <li><strong>What is my target heart rate zone?</strong></li>
           <p>
             "Your target heart rate zone for anti-aging purposes should be between 60% (during the start of the exercise) and 80% (at the peak of the exercise) of your maximum heart rate (which is calculated as 220 minus your age)."
             <br></br>
             -  <a href="https://www.drlamcoaching.com/blog/exercise-faq/"><em>drlamcoaching.com/blog/exercise</em></a>
           </p>
-          <li className="greenFont"><strong>What are some benefits to weight training?</strong></li>
+          <li><strong>What are some benefits to weight training?</strong></li>
           <p className="whiteText">
             1. It will increase your muscle and muscle burns more calories than fat.<br></br>
             2.Resistance exercise, such as "free weights, weight training machines or exercise bands" can effect bone mass, which can help prevent <a href="https://osteoporosis.ca/">osteoporosis.</a><br></br>
             3. More energy and strength to get you through everyday life.
           </p>
-          <li className="greenFont"><strong>Why should I be interested in Bodybuilding?</strong></li>
+          <li><strong>Why should I be interested in Bodybuilding?</strong></li>
           <ol>
             <li>Improve bodily health:</li>
             <p className="smallFont">Weight training and aerobic exercise can help reduce and control high blood pressure, obesity and high cholesterol.
@@ -64,9 +64,9 @@ function ServicesPage(props) {
               -  <a href="https://www.bodybuilding.com/fun/what_is_bodybuilding.htm">Bodybuilding.com</a>
               <br />
               <br></br>
-              <li className="greenFont"><strong>What does the Pricing Structure Look Like?</strong></li>
+              <li><strong>What does the Pricing Structure Look Like?</strong></li>
               <p className="whiteText">
-                An hourly rate of $60 will give you access to all the services listed above.
+                An hourly rate of <span className="greenFont">$60</span> will give you access to all the services listed above.
               </p>
             </p>
           </ol>
