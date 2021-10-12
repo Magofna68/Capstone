@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/capstone/static/css/main.e94c057f.chunk.css",
+    "main.js": "/capstone/static/js/main.a667166f.chunk.js",
+    "main.js.map": "/capstone/static/js/main.a667166f.chunk.js.map",
+    "runtime-main.js": "/capstone/static/js/runtime-main.23af753c.js",
+    "runtime-main.js.map": "/capstone/static/js/runtime-main.23af753c.js.map",
+    "static/css/2.455652b6.chunk.css": "/capstone/static/css/2.455652b6.chunk.css",
+    "static/js/2.3b8fc380.chunk.js": "/capstone/static/js/2.3b8fc380.chunk.js",
+    "static/js/2.3b8fc380.chunk.js.map": "/capstone/static/js/2.3b8fc380.chunk.js.map",
+    "static/js/3.e3c572ef.chunk.js": "/capstone/static/js/3.e3c572ef.chunk.js",
+    "static/js/3.e3c572ef.chunk.js.map": "/capstone/static/js/3.e3c572ef.chunk.js.map",
+    "index.html": "/capstone/index.html",
+    "static/css/2.455652b6.chunk.css.map": "/capstone/static/css/2.455652b6.chunk.css.map",
+    "static/css/main.e94c057f.chunk.css.map": "/capstone/static/css/main.e94c057f.chunk.css.map",
+    "static/js/2.3b8fc380.chunk.js.LICENSE.txt": "/capstone/static/js/2.3b8fc380.chunk.js.LICENSE.txt",
+    "static/media/Maddie001.aaa79d41.png": "/capstone/static/media/Maddie001.aaa79d41.png",
+    "static/media/Maddie002.ae699537.jpeg": "/capstone/static/media/Maddie002.ae699537.jpeg",
+    "static/media/Maddie04.8e48e727.jpg": "/capstone/static/media/Maddie04.8e48e727.jpg",
+    "static/media/Maddie05.1d050e04.jpg": "/capstone/static/media/Maddie05.1d050e04.jpg",
+    "static/media/Maddie06.abf3a3de.jpg": "/capstone/static/media/Maddie06.abf3a3de.jpg",
+    "static/media/Maddie07.f52b1299.jpeg": "/capstone/static/media/Maddie07.f52b1299.jpeg",
+    "static/media/Test.ceb393c4.mp4": "/capstone/static/media/Test.ceb393c4.mp4",
+    "static/media/VeganIcon.cf4dad5a.jpg": "/capstone/static/media/VeganIcon.cf4dad5a.jpg",
+    "static/media/VitalityB.ce30750e.mp4": "/capstone/static/media/VitalityB.ce30750e.mp4",
+    "static/media/index.css": "/capstone/static/media/Workout.2038cc3d.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23af753c.js",
+    "static/css/2.455652b6.chunk.css",
+    "static/js/2.3b8fc380.chunk.js",
+    "static/css/main.e94c057f.chunk.css",
+    "static/js/main.a667166f.chunk.js"
+  ]
+}
